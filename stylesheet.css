@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+nav ul {
+  display: block;
+  list-style-type: none;
+  font-size: 13px;
+  overflow: hidden;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+nav li {
+  margin-right: 25px;
+}
+
+nav li a {
+  display: block;
+  float: right;
+  text-decoration: none;
+  color: #000;
+  margin-top: 16px;
+  padding: 5px;
+}
+
+.opacity {
+  opacity: 0.75;;
+}
+
+.apps {
+  height: 24px;
+  width: 24px;
+  margin-top: -3px;
+  opacity: 0.5;
+}
+
+.notification {
+  height: 20px;
+  width: 20px;
+  opacity: 0.5;
+}
+
+#userphoto {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  margin-top: -7px;
+  opacity: 1;
+}
+
+#google-logo {
+  margin: 0 auto;
+  height: 92px;
+  width: 272px;
+  margin-top: 200px;
+}
+
+#logo {
+  margin: 0 auto;
+  height: 92px;
+  width: 272px;
+  display: block;
+  background-image: url("imgs/google-logo.png");
+  background-size: 272px 92px;
+  background-repeat: no-repeat;
+}
+
+.logo-subtext {
+  font: 16px 16px Roboto-Regular, Arial, sans-serif;
+  position: relative;
+  margin-left: 215px;
+  margin-top: -10px;
+
+}
+
+#searchbox {
+  position: relative;
+  width: 564px;
+  height: 44px;
+  border: 1px solid #e2e2e2;
+  border-bottom: 1px solid #cccbcb;
+  margin: 30px auto;
+  overflow: hidden;
+}
+
+#search {
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  width: 564px;
+  padding: 5px;
+  padding-left: 15px;
+}
+
+.shadow {
+  box-shadow: 1px 3px 5px 0px rgba(153,153,153,0.4);
+}
+
+#search-buttons {
+  width: 100%;
+  height: 50px;
+  display: block;
+  line-height: 27px;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.button {
+  background-color: #f2f2f2;
+  font-size: 13px;
+  font-weight: bold;
+  color: #757575;
+  margin: 11px 2px;
+  padding: 0 16px;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.google-search {
+  height: 36px;
+  width: 125px;
+}
+
+.feeling-lucky {
+  height: 36px;
+  width: 142px;
+}
+
+footer ul {
+  list-style-type: none;
+  font-size: 13px;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: #f2f2f2;
+}
+
+footer .left li {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: block;
+  float: left;
+  margin-left: 20px;
+}
+
+footer li a {
+  margin: 5px;
+  text-decoration: none;
+  color: #000;
+  margin-top: 16px;
+  font-size: 13px;
+  opacity: 0.75;
+}
+
+footer .right li {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: block;
+  float: right;
+  margin-right: 20px;
+}
