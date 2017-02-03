@@ -6,6 +6,8 @@ I recreated it to look and feel as much like the Google homepage as possible, an
 I worked out cleaner ways of coding (although I'm sure it could still be much cleaner!).
 
 I played around with this project for a full day trying to get everything laid out as closely to the "original" as possible. 
+I really focused on the search bar and getting the caret to fill the full size of the search bar, be fully centered and have the text a user inputs be centered through the searchbar. I also made the logo a background image, as Google's homepage also does the same, as opposed to a regular image which is what I originally intended to do. 
+I have not added any hover effects to any buttons, as the project guidelines specified not to do so. 
 I learnt a lot of new methods whilst creating this, and really understood the concept of 'build, build, build'. 
 
 This project can be viewed easily at - https://theskywasgreen.github.io/google-homepage/
