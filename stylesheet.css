@@ -95,8 +95,12 @@ nav li a {
   overflow: hidden;
 }
 
+input:focus {
+  outline: none;
+}
+
 #search {
-  font: 16px arial, sans-serif;
+  font: 26px arial, sans-serif;
   line-height: 34px;
   width: 564px;
   padding: 5px;
